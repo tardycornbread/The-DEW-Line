@@ -1,0 +1,47 @@
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Ensure video stays in the background */
+  }
+  
+  h1 {
+    font-family: "Spline Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 60px;
+    position: relative; 
+    z-index: 1; 
+    color: white; 
+    margin-left: 35%;
+    margin-top: 40%;
+  }
+
+  h2{
+    font-family: "Spline Sans Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    z-index: 1; 
+    color: white; 
+    margin-left: 35%;
+    padding-left: 5%;
+   
+
+
+
+
+
+
+  }
+
+  .no_underline{
+
+    text-decoration: none;
+
+
+  }
