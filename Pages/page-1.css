@@ -114,14 +114,27 @@ video{
     font-family: "Spline Sans Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
-    grid-column: span 3;
-    border: 1px solid black;
+ 
 
 
 
 
 
 
+}
+
+.svg-container {
+
+    width: 100%;
+
+    height: auto;
+
+    display: block;
+}
+
+svg {
+    width: 100%;
+    height: auto;
 }
