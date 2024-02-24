@@ -128,13 +128,18 @@ video{
 .svg-container {
 
     width: 100%;
-
     height: auto;
-
     display: block;
+    
 }
 
 svg {
+
     width: 100%;
     height: auto;
+    margin-top: 5px;
+    margin-left: 2px;
+
+
+
 }
