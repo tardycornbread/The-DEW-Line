@@ -51,12 +51,12 @@
    
 }
 
-.introduction{
-
+.text{
+    height: 500px;
     grid-column: 1/4;
-    grid-row: 2/4;
+    grid-row: 2/6;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 5%;
     font-family: "Spline Sans Mono", monospace;
     font-optical-sizing: auto;
@@ -65,6 +65,7 @@
     font-size: 15px;
     hyphens: auto;
     line-height: 1.5;
+    overflow-y: scroll;
 
 
 
@@ -95,7 +96,7 @@ video{
 .section_container{
 
     grid-column: 4/7;
-    grid-row: 3/4;
+    grid-row: 3/5;
     border: 2px solid black;
     display: grid;
     grid-template-rows: 50px 50px 50px 50px;
@@ -128,7 +129,7 @@ video{
 .svg-container {
 
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     
 }
